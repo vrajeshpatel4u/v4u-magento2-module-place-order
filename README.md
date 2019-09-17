@@ -1,10 +1,7 @@
 # magento2-module-place-order
 Add unique "Place Order" button in the sidebar of the checkout page, instead of one button per payment method.
 
-![Module Logo](app/code/V4U/PlaceOrderButton/docs/Checkout.png)
-
 ## Supports
-
 
 - Magento 2.1.x, 2.2.x, 2.3.x
 
@@ -15,6 +12,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 php bin/magento cache:clean
 ```
+![Module Logo](app/code/V4U/PlaceOrderButton/docs/Checkout.png)
 
 ### Install via zip
 
